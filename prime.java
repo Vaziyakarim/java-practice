@@ -13,7 +13,7 @@ isprime=false;
 }    
 else{
     for(int i=2;i*i<=n;i++){
-        if(n%2==0){
+        if(n%i==0){
             isprime=false;
         }
 
@@ -26,4 +26,5 @@ else{
         System.out.println("The number" +n+ " you have entered is not a prime number");
     }
 }
+
 }
