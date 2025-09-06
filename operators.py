@@ -1,0 +1,21 @@
+a, b = 10, 3
+print(a + b, a - b, a * b, a / b, a % b, a ** b, a // b)
+print(a == b, a != b, a > b, a < b, a >= b, a <= b)
+print(a and b, a or b, not a)
+print(a & b, a | b, a ^ b, ~a, a << 1, a >> 1)
+c = a
+c += b; print(c)
+c -= b; print(c)
+c *= b; print(c)
+c /= b; print(c)
+c %= b; print(c)
+c **= b; print(c)
+c //= b; print(c)
+c &= b; print(c)
+c |= b; print(c)
+c ^= b; print(c)
+c <<= 1; print(c)
+c >>= 1; print(c)
+lst = [1, 2, 3]
+print(2 in lst, 5 not in lst)
+print(a is b, a is not b)
